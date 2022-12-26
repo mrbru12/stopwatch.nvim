@@ -1,7 +1,7 @@
 # stopwatch.nvim
 
 Extremely simple plugin for keeping track of how much time has passed since you started your current instance of Neovim.
-The elapsed time is displayed on the Hour:Minute format, without the Seconds, because I find them kinda distracting. 
+The elapsed time is displayed on the "HOUR:MINUTE" format, without the SECONDS, because I find them kinda distracting. 
 
 ## Installation
 
