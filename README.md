@@ -15,6 +15,7 @@ use mrbru12/stopwatch.nvim
 Example setup as a [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) custom component:
 ```lua
 -- Your lualine.lua configuration file
+
 require('lualine').setup {
     sections = {
         -- This will display the elapsed time beside the file name 
