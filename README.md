@@ -7,7 +7,7 @@ The elapsed time is displayed on the Hour:Minute format, without the Seconds, be
 
 Using [packer.nvim](https://github.com/wbthomason/packer.nvim):
 ```lua
-use mrbru12/stopwatch.nvim
+use 'mrbru12/stopwatch.nvim'
 ```
 
 ## Usage
