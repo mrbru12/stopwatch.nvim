@@ -22,4 +22,4 @@ require('lualine').setup {
     },
 }
 ```
-The elapsed time is formatted as "HOUR:MINUTE" by default, without the SECONDS, because I find them a bit distracting. However, if you want to change something, you can format it yourself using the plugin functions!
+The elapsed time is formatted as "HOURS:MINUTES" by default, without the SECONDS, because I find them a bit distracting. However, if you want to change something, you can format it yourself using the plugin functions!
