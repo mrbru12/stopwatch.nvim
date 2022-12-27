@@ -1,7 +1,6 @@
 # stopwatch.nvim ⏱️
 
 An extremely simple plugin to keep track of how much time has passed since you started your current instance of Neovim.
-The elapsed time is formatted as "HOUR:MINUTE", without the SECONDS, because I find them a bit distracting. 
 
 ## Installation
 
@@ -19,7 +18,8 @@ Example setup as a [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) 
 require('lualine').setup {
     sections = {
         -- This will display the elapsed time beside the file name 
-        lualine_c = { 'filename', require('stopwatch').delta_time },
+        lualine_c = { 'filename', require('stopwatch').default },
     },
 }
 ```
+The elapsed time is formatted as "HOUR:MINUTE" by default, without the SECONDS, because I find them a bit distracting. However, if you wanna change something, you can format it yourself using the plugin functions!
