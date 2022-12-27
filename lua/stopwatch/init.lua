@@ -1,7 +1,7 @@
-local start_time = vim.fn.localtime()
+local start_time = os.time()
 
 local function delta_time()
-    local seconds = vim.fn.localtime() - start_time
+    local seconds = os.difftime(os.time(), start_time)
     local minutes = math.floor(seconds / 60)
     local hours = math.floor(minutes / 60)
 
