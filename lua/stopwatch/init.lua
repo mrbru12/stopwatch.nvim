@@ -15,7 +15,7 @@ local function hours()
     return math.floor(minutes() / 60)
 end
 
--- Returns a string formatted as "MINUTES:HOURS" elapsed since Neovim started 
+-- Returns a string formatted as "HOURS:MINUTES" elapsed since Neovim started 
 local function default()
     return string.format('%02d:%02d', hours() % 60, minutes() % 60)
 end
